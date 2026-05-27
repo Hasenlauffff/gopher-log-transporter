@@ -1,0 +1,26 @@
+# Git
+.git
+.gitignore
+
+# Env file
+.env
+
+# State file
+*.state
+
+# Binary cũ
+gopher-log-transporter
+bin/
+
+# K8s manifests (không cần trong image)
+k8s/
+
+# IDE
+.vscode/
+.idea/
+
+# Test files
+*_test.go
+
+# Docs
+*.md

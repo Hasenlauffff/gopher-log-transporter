@@ -1,0 +1,26 @@
+# Env file chứa config nhạy cảm
+.env
+
+# Binary sau khi build
+gopher-log-transporter
+bin/
+
+# State file lưu offset — mỗi máy khác nhau
+*.state
+
+# Go build cache
+vendor/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Log file test local
+*.log
+
+run.sh
+note.md
