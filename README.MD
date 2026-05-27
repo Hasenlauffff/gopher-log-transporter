@@ -1,4 +1,4 @@
-# Gopher-Log-Transporter 🐹
+# Gopher-Log-Transporter 
 A custom log shipping agent built in Go that tails Kubernetes pod log files in real-time, parses them, and ships them to Grafana Loki.
 ## Architecture
 
